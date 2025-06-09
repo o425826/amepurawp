@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "mainfont"; 
+    src: url("font.html/mainfont.ttf") format("truetype"); 
+    font-display: swap; 
+
+  }
+
+body{
+  font-family: "mainfont";
+background-image: url(back.jpg);
+  background-size: 100%;
+  top: 0;
+  margin: 0 auto;
+}
+
+
+
+
+/*ヘッダーについて*/
+
+.head header {
+  display: flex;
+  align item: center ;
+  justify-content: space-between;
+ }
+
+ .head img{
+  padding-top: 20px;
+  padding-left: 30px;
+ }
+
+
+nav{
+  width:700px;
+}
+
+
+nav ul{
+	display: flex;
+  font-size: 18px;
+  padding-top: 60px;
+  padding-right: 180px;
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+   }
+
+
+
+
+
+/*見出しについて*/
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #050834;
+  font-family: "mainfont";
+
+  }
+
+
+
+
+
+
+/*雨プラとは*/
+
+.top{
+  padding-top: 1400px;
+  display: flex;
+}
+
+.top h2{
+  writing-mode: vertical-rl;
+  padding-left: 500px;
+  color: #fff;
+}
+
+.what{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+/*基準*/
+
+.base{
+  padding-top: 80px;
+  color: #2F4156;
+}
+
+
+
+
+.base p{
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 80px;
+  font-size: 20px;
+}
+
+
+
+
+
+/*一覧について*/
+
+.list{
+  padding-top: 750px;
+  height: 500px;
+ 
+}
+
+.list h2{
+  font-size: 40px;
+}
+
+.miv{
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.list img{
+  width: 400px;
+}
+
+.list p{
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+
+/*オススメ診断*/
+
+.sugg{
+  padding-top: 600px;
+}
+
+.choose_box {
+  position: relative;
+  height: 30vw;
+  width: 100%;
+}
+ .choose_box p {
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+  }
+ 
+.choose_box ul {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+   display:flex;
+  flex-wrap: wrap;
+}
+.choose_box ul li {
+  width: calc(100% / 2 - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+ 
+.choose_box ul li:nth-child(2n) {
+   margin-right: 0;
+}
+.choose_box ul li a {
+  color: #fff;
+  display: block;
+  padding: 20px 60px;
+  text-align: center;
+  background-color: #567C8D;
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid #567C8D;
+  text-decoration: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+ 
+.choose_box ul li a:hover {
+   background-color: #fff;
+  color: #567C8D;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+ 
+h4 {
+    width: 50%;
+    clear: both;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  background-color: #2F4156;
+  }
+ 
+.fit {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  width: 100%;
+}
+#q_06 span,#q_07 span,#q_08 span,#q_09 span,#q_10 span,#q_11 span,#q_12 span,#q_13 span {
+  display: block;
+  width:100%;
+}
+#q_06 a,#q_07 a,#q_08 a,#q_09 a,#q_10 a,#q_11 a,#q_12 a,#q_13 a{
+  display: block;
+  width:100%;
+  text-align: center;
+}
+
+/*SNS*/
+
+.sns{
+  padding-top: 900px;
+  color: #fff;
+  padding-bottom: 200px;
+}
+
+.sns h2{
+  color: #fff;
+}
+
+.rt{
+  display: flex;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.lleft{
+  align-content: center;
+}
+
+.lleft img{
+  padding-left: 100px;
+  width: 50%;
+}
+.rright {
+  width: 50%;
+  text-align: left;
+  padding-right: 150px;
+}
